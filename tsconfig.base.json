@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@ag/domain": ["./libs/core/domain/src/index.ts"],
+      "@ag/state": ["./libs/core/state/src/index.ts"],
+      "@ag/ui": ["./libs/shared/ui/src/index.ts"],
+      "@ag/screens": ["./libs/shell/screens/src/index.ts"],
+      "@ag/defi-zoom": ["./libs/defis/zoom/src/index.ts"],
+      "@ag/defi-clavier": ["./libs/defis/clavier/src/index.ts"],
+      "@ag/defi-lecteur": ["./libs/defis/lecteur/src/index.ts"],
+      "@ag/defi-couleurs": ["./libs/defis/couleurs/src/index.ts"],
+      "@ag/defi-surdite": ["./libs/defis/surdite/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
